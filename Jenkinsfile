@@ -1,6 +1,4 @@
 
-def profile
-
 node {
   checkout scm
   def profilesConfig = readYaml(file: 'config/profiles.yaml')

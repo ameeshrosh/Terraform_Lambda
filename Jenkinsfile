@@ -3,7 +3,7 @@ pipeline {
     docker {
       image 'hashicorp/terraform:latest'
       args '-v /var/run/docker.sock:/var/run/docker.sock --group-add docker'
-      label 'linux-docker-node'
+      label 'Built-In-Node'
     }
   }
 

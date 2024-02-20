@@ -1,0 +1,27 @@
+profiles:
+  dev:
+    name: dev
+    stack_id: REMA-TDM-INTREGATION
+    stack_name: rema-tdm-intregation
+    environments: dev
+    regions: 
+      - us-east-1
+      - us-west-2
+
+  qa:
+    name: qa
+    stack_id: REMA-TDM-INTREGATION
+    stack_name: rema-tdm-intregation
+    environments: qa
+    regions: 
+      - us-east-1
+      - us-west-2
+  
+  prod:
+    name: prod
+    stack_id: REMA-TDM-INTREGATION
+    stack_name: rema-tdm-intregation
+    environments: prod
+    regions: 
+      - us-east-1
+      - us-west-2
